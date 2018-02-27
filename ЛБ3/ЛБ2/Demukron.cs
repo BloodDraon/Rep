@@ -72,9 +72,9 @@ namespace ЛБ2
         {            
           for (int i = 0; i < 7; i++)
             {
-             if (udalen[i] == false)
+             if (udalen[i] == true)
                {
-                return true;
+                return false;
                }               
             }
             return false;
